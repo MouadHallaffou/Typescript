@@ -1,0 +1,34 @@
+{
+  "name": "js-es6-exercises",
+  "version": "1.0.0",
+  "description": "Exercices JavaScript ES6+ avec tests automatiques",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "node tests/test-runner.js",
+    "ex1": "node exercices/01-variables-scope.js",
+    "ex2": "node exercices/02-arrow-functions.js",
+    "ex3": "node exercices/03-template-literals.js",
+    "ex4": "node exercices/04-destructuring.js",
+    "ex5": "node exercices/05-spread-operator.js",
+    "sol1": "node solutions/01-variables-scope.js",
+    "sol2": "node solutions/02-arrow-functions.js",
+    "sol3": "node solutions/03-template-literals.js",
+    "sol4": "node solutions/04-destructuring.js",
+    "sol5": "node solutions/05-spread-operator.js",
+    "check": "echo 'Vérification de votre code...' && npm test",
+    "help": "echo 'Commandes disponibles:' && npm run"
+  },
+  "keywords": [
+    "javascript",
+    "es6",
+    "exercises",
+    "learning",
+    "tutorial"
+  ],
+  "author": "Roadmap JS Modern",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

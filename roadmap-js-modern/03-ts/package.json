@@ -1,0 +1,20 @@
+{
+  "name": "typescript-exercises",
+  "version": "1.0.0",
+  "description": "Exercices TypeScript avec compilation automatique",
+  "scripts": {
+    "build": "tsc",
+    "ex1": "tsc exercices/01-types-base.ts && node exercices/01-types-base.js",
+    "clean": "rm -rf dist *.js",
+    "test": "npm run build && node tests/test-runner.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "typescript",
+    "exercises"
+  ],
+  "license": "MIT"
+}

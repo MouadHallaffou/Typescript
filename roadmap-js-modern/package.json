@@ -1,0 +1,40 @@
+{
+  "name": "roadmap-js-modern",
+  "version": "1.0.0",
+  "description": "Roadmap d'apprentissage progressive complète en JavaScript moderne, Node.js, TypeScript et React",
+  "type": "module",
+  "scripts": {
+    "test": "echo 'Running all modules...' && npm run test:js && npm run test:node && npm run test:ts && npm run test:react",
+    "test:js": "cd 01-js && npm test",
+    "test:node": "cd 02-nodejs && npm test",
+    "test:ts": "cd 03-typescript && npm test",
+    "test:react": "cd 04-react && npm test",
+    "install:all": "npm install && cd 01-js && npm install && cd ../02-nodejs && npm install && cd ../03-typescript && npm install && cd ../04-react && npm install",
+    "setup": "npm run install:all",
+    "dev:js": "cd 01-js && npm run dev",
+    "dev:node": "cd 02-nodejs && npm run dev",
+    "dev:ts": "cd 03-typescript && npm run dev",
+    "dev:react": "cd 04-react && npm run dev",
+    "verify": "node scripts/verify-structure.js"
+  },
+  "workspaces": [
+    "01-js",
+    "02-nodejs",
+    "03-typescript",
+    "04-react"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "typescript",
+    "react",
+    "roadmap",
+    "learning",
+    "progressive"
+  ],
+  "author": "Roadmap JS Modern",
+  "license": "MIT"
+}
