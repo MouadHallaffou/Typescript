@@ -74,7 +74,7 @@ Chaque module contient :
 ## 📁 Structure des fichiers
 
 ```
-roadmap-js-modern/
+roadmap-js/
 ├── README.md
 ├── .gitignore (protège les solutions)
 ├── 01-js/
